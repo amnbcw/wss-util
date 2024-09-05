@@ -30,7 +30,7 @@ ws.on('open', () => {
 ws.on('message', (data) => {
   console.log(
     'Message rcvd from server: @ ' + +new Date(),
-    data.toString().substring(0, 108)
+    data.toString().substring(0, 50)
   );
 });
 
